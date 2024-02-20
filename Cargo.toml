@@ -1,4 +1,4 @@
-workspace = { members = ["adder"] }
+workspace = { members = ["adder", "restaurant"] }
 [package]
 name = "my_bevy_game"
 version = "0.1.0"

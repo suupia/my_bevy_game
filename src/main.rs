@@ -37,3 +37,4 @@ fn update_people(mut query: Query<&mut Name, With<Person>>) {
         }
     }
 }
+

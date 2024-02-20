@@ -6,7 +6,6 @@ mod sub{
 }
 
 
-// なぜか実行されない？？
 #[cfg(test)]
 mod tests {
     use super::*;
