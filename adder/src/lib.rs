@@ -1,3 +1,5 @@
+mod sub;
+
 pub fn add(left: usize, right: usize) -> usize {
     left + right
 }
@@ -16,6 +18,10 @@ impl Rectangle {
 
 pub fn add_two(a: i32) -> i32 {
     a + 2
+}
+
+pub fn mul(a: i32, b: i32) -> i32 {
+    a * b
 }
 
 pub fn greeting(name: &str) -> String{
